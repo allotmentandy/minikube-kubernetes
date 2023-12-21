@@ -33,12 +33,15 @@ https://github.com/geerlingguy/kubernetes-101/tree/master
 
 
 
+MiniKube Cheatsheet
 
-
-First Header | Second Header
+Command | Description / Notes
 ------------ | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
-minikube start
+minikube start | --driver=virtualbox
+eval $(minikube -p minikube docker-env) | uses the local docker in minikube
 minikube halt
 minikube status
+minikube version 
+minikube ip | get the ip address
+minikube dashboard | open a dashboard in the browser
+
